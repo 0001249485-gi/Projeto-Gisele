@@ -6,7 +6,7 @@ import {Produto} from '../../models/produto.model';
   selector: 'app-produto-card',
   standalone: true,
   styleUrl: './produto-card.css',
-  templateUrl: './produto-card.html',
+  templateUrl: './produto-card.html',''
 })
 export class ProdutoCard {
   item: Produto = {
